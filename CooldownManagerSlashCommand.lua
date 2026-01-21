@@ -1,6 +1,7 @@
 local _G = _G
 
 local IsAddOnLoaded = C_AddOns.IsAddOnLoaded
+local InCombatLockdown = InCombatLockdown
 
 if IsAddOnLoaded('WeakAuras') then
 	print('Cooldown Manager Slash Command: WeakAuras AddOn detected, not loading slash commands...')
