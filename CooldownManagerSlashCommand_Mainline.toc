@@ -3,8 +3,8 @@
 
 ## DefaultState: enabled
 ## Author: Luckyone
-## Version: 1.01
+## Version: 1.02
 
-## Interface: 120000
+## Interface: 120001
 
 CooldownManagerSlashCommand.lua
