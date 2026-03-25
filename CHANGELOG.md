@@ -1,3 +1,7 @@
+## Version 1.02 [25-03-2026]
+
+- Don't register /wa if M33kAuras is loaded
+
 ## Version 1.01 [22-01-2026]
 
 **Retail:**  

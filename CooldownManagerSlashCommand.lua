@@ -6,8 +6,8 @@ local InCombatLockdown = InCombatLockdown
 local _G = _G
 local CooldownViewerSettings = _G.CooldownViewerSettings
 
--- Don't register /wa if WeakAuras is loaded
-local waLoaded = IsAddOnLoaded('WeakAuras')
+-- Don't register /wa if WeakAuras or M33kAuras is loaded
+local waLoaded = IsAddOnLoaded('WeakAuras') or IsAddOnLoaded('M33kAuras')
 if waLoaded then
 	print('Cooldown Manager Slash Command: WeakAuras AddOn detected, only registering /cd and skipping /wa')
 end
