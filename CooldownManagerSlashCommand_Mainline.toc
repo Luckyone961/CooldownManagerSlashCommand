@@ -4,7 +4,7 @@
 
 ## DefaultState: enabled
 ## Author: Luckyone
-## Version: 1.04
+## Version: 1.05
 
 ## Interface: 120100
 
