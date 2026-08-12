@@ -6,6 +6,6 @@
 ## Author: Luckyone
 ## Version: 1.04
 
-## Interface: 120007
+## Interface: 120100
 
 CooldownManagerSlashCommand.lua
