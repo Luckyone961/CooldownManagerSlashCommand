@@ -1,3 +1,8 @@
+## Version 1.06 [18-11-2026]
+
+- Added WoW: Forever support  
+- TOC updates  
+
 ## Version 1.05 [12-08-2026]
 
 - TOC updates  

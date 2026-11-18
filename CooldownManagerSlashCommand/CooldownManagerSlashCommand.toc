@@ -4,8 +4,11 @@
 
 ## DefaultState: enabled
 ## Author: Luckyone
-## Version: 1.05
+## Version: @project-version@
+## X-Curse-Project-ID: 1439579
 
-## Interface: 120100
+## Interface: 16001, 120105
+## AllowLoadGameType: standard, camelot
+## ExcludeLoadGameType: classic
 
 CooldownManagerSlashCommand.lua
