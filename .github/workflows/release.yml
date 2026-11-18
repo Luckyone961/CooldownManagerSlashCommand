@@ -1,0 +1,25 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - '**'
+
+jobs:
+    release:
+      runs-on: ubuntu-latest
+
+      env:
+        CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+
+      steps:
+        - name: Clone project
+          uses: actions/checkout@v7
+
+        - name: Build release changelog
+          run: awk 'NR==1{sub(/^\357\273\277/,"")} /^## Version/{n++} n<=5' CHANGELOG.md > CURRENT.md
+
+        - name: BigWigsPackager
+          uses: BigWigsMods/packager@v2
+          with:
+            args: -n "{package-name}-{project-version}"
