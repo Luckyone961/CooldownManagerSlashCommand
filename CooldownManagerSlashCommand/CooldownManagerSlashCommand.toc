@@ -6,10 +6,7 @@
 ## Author: Luckyone
 ## Version: @project-version@
 ## X-Curse-Project-ID: 1439579
-<<<<<<< HEAD
-=======
 ## X-Wago-ID: rN4kVwGD
->>>>>>> 75fa7ee (1.06)
 
 ## Interface: 16001, 120105
 ## AllowLoadGameType: standard, camelot
